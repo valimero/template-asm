@@ -34,7 +34,7 @@ clean:
 - add a main.c 
 
 
-## Command
+## Makefile commands
 - `make compile`	--> compile all .s code and .c
 - `make run` 		--> run main.c
 - `make clean`		--> clean *.out and *.c	
