@@ -17,16 +17,16 @@ echo "int main(int arg, char **argv)
 {
     return 0;
 }" > main.c && echo "compile:
-    nasm -f elf64 *.s
-    gcc *.c *.o
+	nasm -f elf64 *.s
+	gcc *.c *.o
 
 run:
-    ./a.out
+	./a.out
 
 
 clean:
-    rm ./a.out *.o
-    " > Makefile
+	rm ./a.out *.o
+" > Makefile
 ```
 
 ## What does that script ?
